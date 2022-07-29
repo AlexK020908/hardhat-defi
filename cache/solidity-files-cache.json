@@ -1,12 +1,12 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/alexk47/folder/hardhatCamp/hardhat-defi/contracts/interfaces/IWeth.sol": {
-      "lastModificationDate": 1658984596048,
-      "contentHash": "be9cb2824362fbdbb2598caf069e3a96",
-      "sourceName": "contracts/interfaces/IWeth.sol",
+    "/Users/apple/Desktop/Blockchain/test/hardhat-defi/contracts/interfaces/AggregatorV3Interface.sol": {
+      "lastModificationDate": 1659088661454,
+      "contentHash": "cb2bf52293c3017801ef5a0b5234c9cc",
+      "sourceName": "contracts/interfaces/AggregatorV3Interface.sol",
       "solcConfig": {
-        "version": "0.4.19",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -37,56 +37,14 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.4.19"
+        "^0.8.0"
       ],
       "artifacts": [
-        "IWeth"
+        "AggregatorV3Interface"
       ]
     },
-    "/home/alexk47/folder/hardhatCamp/hardhat-defi/contracts/interfaces/ILendingPoolAddressesProvider.sol": {
-      "lastModificationDate": 1658986029408,
-      "contentHash": "a2aa97dd079073449c93d4c35030cbd4",
-      "sourceName": "contracts/interfaces/ILendingPoolAddressesProvider.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "0.6.12"
-      ],
-      "artifacts": [
-        "ILendingPoolAddressesProvider"
-      ]
-    },
-    "/home/alexk47/folder/hardhatCamp/hardhat-defi/contracts/interfaces/DataTypes.sol": {
-      "lastModificationDate": 1658986323008,
+    "/Users/apple/Desktop/Blockchain/test/hardhat-defi/contracts/interfaces/DataTypes.sol": {
+      "lastModificationDate": 1659088661454,
       "contentHash": "31c12f0e0b472b1f921ce7c07789b576",
       "sourceName": "contracts/interfaces/DataTypes.sol",
       "solcConfig": {
@@ -127,8 +85,8 @@
         "DataTypes"
       ]
     },
-    "/home/alexk47/folder/hardhatCamp/hardhat-defi/contracts/interfaces/ILendingPool.sol": {
-      "lastModificationDate": 1658986310748,
+    "/Users/apple/Desktop/Blockchain/test/hardhat-defi/contracts/interfaces/ILendingPool.sol": {
+      "lastModificationDate": 1659088661455,
       "contentHash": "bee5f00edcac6ebb87124ba78db4d1eb",
       "sourceName": "contracts/interfaces/ILendingPool.sol",
       "solcConfig": {
@@ -172,8 +130,50 @@
         "ILendingPool"
       ]
     },
-    "/home/alexk47/folder/hardhatCamp/hardhat-defi/contracts/interfaces/IERC20.sol": {
-      "lastModificationDate": 1659064043859,
+    "/Users/apple/Desktop/Blockchain/test/hardhat-defi/contracts/interfaces/ILendingPoolAddressesProvider.sol": {
+      "lastModificationDate": 1659088661455,
+      "contentHash": "a2aa97dd079073449c93d4c35030cbd4",
+      "sourceName": "contracts/interfaces/ILendingPoolAddressesProvider.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ILendingPoolAddressesProvider"
+      ]
+    },
+    "/Users/apple/Desktop/Blockchain/test/hardhat-defi/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1659088661454,
       "contentHash": "76be674d52ec00c10fe24cc2480a883c",
       "sourceName": "contracts/interfaces/IERC20.sol",
       "solcConfig": {
@@ -214,12 +214,12 @@
         "IERC20"
       ]
     },
-    "/home/alexk47/folder/hardhatCamp/hardhat-defi/contracts/interfaces/AggregatorV3Interface.sol": {
-      "lastModificationDate": 1659066284209,
-      "contentHash": "cb2bf52293c3017801ef5a0b5234c9cc",
-      "sourceName": "contracts/interfaces/AggregatorV3Interface.sol",
+    "/Users/apple/Desktop/Blockchain/test/hardhat-defi/contracts/interfaces/IWeth.sol": {
+      "lastModificationDate": 1659088661455,
+      "contentHash": "be9cb2824362fbdbb2598caf069e3a96",
+      "sourceName": "contracts/interfaces/IWeth.sol",
       "solcConfig": {
-        "version": "0.8.8",
+        "version": "0.4.19",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -250,10 +250,10 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.4.19"
       ],
       "artifacts": [
-        "AggregatorV3Interface"
+        "IWeth"
       ]
     }
   }

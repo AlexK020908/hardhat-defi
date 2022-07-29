@@ -36,7 +36,7 @@ async function main() {
     */
 
     //first we need to grab all the info about a user getUserAccountData() --> where you can see health factor etc, liquidation threshold, we want to see how much we can borrow
-    let { totalCollateralETH, totalDebtETH, availableBorrowsETH } = getBorrowUserData(
+    let { totalCollateralETH, totalDebtETH, availableBorrowsETH } = await getBorrowUserData(
         LendingPool,
         deployer
     )
